@@ -2,26 +2,27 @@
 	font-family: 'Gafata', sans-serif, 'Helvetica', sans-serif;
 	color: #ffffff;
 }
-body {
+* {
 	margin: 0;
+	padding: 0;
 	box-sizing: border-box;
 }
-#main {
-}
 #intro {
+	text-align: center;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 100vh;
 	background-color: #000000;
-	position: relative;
-	
+	padding: 20px;
 }
 blockquote {
 	font-size: 2rem;
-	text-align: center;
-	margin: auto 15%; 
+	width: 90%;
+	max-width: 600px;
 }
-#intro > p {
+#intro > figcaption {
 	color: white;
 	font-size: 1.5rem;
 }
@@ -63,14 +64,15 @@ ul {
 }
 p, a {
 	color: #000000;
-	font-size: 1rem;
 	text-align: center;
-	padding: 10px 40px 40px 40px;
+	margin: 10px 0 40px 20px;
 	text-decoration: none;
 }
 a {
+	color: red;
+	margin: 0;
 	padding: 0;
 }
 a:hover {
-	color: #be1111;
+	color: #000000;
 }
