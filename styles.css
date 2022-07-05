@@ -1,0 +1,76 @@
+:root {
+	font-family: 'Gafata', sans-serif, 'Helvetica', sans-serif;
+	color: #ffffff;
+}
+body {
+	margin: 0;
+	box-sizing: border-box;
+}
+#main {
+}
+#intro {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #000000;
+	position: relative;
+	
+}
+blockquote {
+	font-size: 2rem;
+	text-align: center;
+	margin: auto 15%; 
+}
+#intro > p {
+	color: white;
+	font-size: 1.5rem;
+}
+#img-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color:  #be1111;
+}
+#title {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Inconsolata', monospace, 'Helvetica', sans-serif;
+	font-size: 24.5vw;
+	align-items: center;
+	margin: 0;
+}
+#image {
+	max-width: 85vw;
+	box-shadow: 2px 2px 2px black;
+}
+#img-caption {
+	font-family: 'Gafata', sans-serif, 'Helvetica', sans-serif;
+	font-size: 1rem;
+	padding: 20px;
+	text-align: center;
+}
+
+
+#tribute-info {
+	background-color: #ffffff;
+}
+ul {
+	font-size: 21px;
+	color: #000000;
+	text-align: justify;
+	padding: 5vw 20vw 0vw 20vw;
+	list-style-type: none;
+}
+p, a {
+	color: #000000;
+	font-size: 1rem;
+	text-align: center;
+	padding: 10px 40px 40px 40px;
+	text-decoration: none;
+}
+a {
+	padding: 0;
+}
+a:hover {
+	color: #be1111;
+}
